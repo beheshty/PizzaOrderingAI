@@ -11,12 +11,14 @@ Whether you're experimenting with AI or exploring Semantic Kernel for the first 
 ## 🔧 𝐆𝐞𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐢𝐧 𝟒 𝐬𝐢𝐦𝐩𝐥𝐞 𝐬𝐭𝐞𝐩𝐬:
 
 1️⃣ Go to GitHub > Settings > Developer Settings > Personal Access Tokens, and generate a Classic API Key
+
 2️⃣ Clone this repo:
    ```bash
    git clone <repository-url>
    cd PizzaOrderingAI
    ```
 3️⃣ Add your API key to `appsettings.json`.
+
 4️⃣ Run the app:
 ```bash
 dotnet run
