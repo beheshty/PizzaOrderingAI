@@ -24,11 +24,10 @@ var chatCompletionService = kernel.GetRequiredService<IChatCompletionService>();
 
 kernel.Plugins.AddFromType<PizzaOrdering>("PizzaOrdering");
 
-#pragma warning disable SKEXP0010
 OpenAIPromptExecutionSettings openAIPromptExecutionSettings = new()
 {
     FunctionChoiceBehavior = FunctionChoiceBehavior.Auto(),
-    ChatDeveloperPrompt = "You are a helpful assistant that can help with pizza ordering. You can provide a list of pizzas, place an order, and retrieve the current order, or clear the current Order. You try to get the order from the user and always ask the user if they need more to add to their order",
+    ChatSystemPrompt = "You are a helpful assistant that can help with pizza ordering. You can provide a list of pizzas, place an order, and retrieve the current order, or clear the current Order. You try to get the order from the user and always ask the user if they need more to add to their order",
 };
 
 var history = new ChatHistory();
