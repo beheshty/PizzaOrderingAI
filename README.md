@@ -14,7 +14,7 @@ Whether you're experimenting with AI or exploring Semantic Kernel for the first 
 
 2️⃣ Clone this repo:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/beheshty/PizzaOrderingAI.git
    cd PizzaOrderingAI
    ```
 3️⃣ Add your API key to `appsettings.json`.
